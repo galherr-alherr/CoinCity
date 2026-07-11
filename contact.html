@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJTX67X2N4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XJTX67X2N4');
+</script>
+<title>Coin City | Contact Us</title>
+
+<meta name="description"
+content="Contact the Coin City team with questions, feedback, product requests, or livestream ideas through our community contact page.">
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="cc.css">
+</head>
+<body id="index">
+<div id="wrapper">
+<header>
+  <div class="hero-area">
+    <div class="animation">
+      <img src="livestream.gif" alt="Live stream animation">
+    </div>
+
+    <img src="logo.png"
+         alt="Coin City logo"
+         class="logo">
+  </div>
+
+  <h1><a href="index.html">Coin City</a></h1>
+
+  <div class="header-buttons">
+    <a class="watch-button whatnot-button"
+       href="https://www.whatnot.com/user/coincity?sender_id=5506198&sharing_channel=sms"
+       target="_blank">
+      Watch on Whatnot
+    </a>
+
+    <a class="watch-button tiktok-button"
+       href="https://www.tiktok.com/@coincitycoins"
+       target="_blank">
+      Watch on TikTok
+    </a>
+  </div>
+</header>
+  <nav>
+    <a href="index.html">Coin City</a>
+    <a href="merchandise.html">Merchandise</a>
+    <a href="coins.html">Coins & Collectibles</a>
+    <a href="live.html">Live!</a>
+    <a href="crew.html">Meet the Crew</a>
+    <a href="contact.html">Get in Touch</a>
+  </nav>
+
+  <main>
+<section class="contact-section">
+  <h2>We'd Love to Hear From You!</h2>
+  <p class="contact-tagline">Tell us what is on your mind!</p>
+  <p class="contact-intro">
+    Share your product requests, live show ideas, questions, or feedback with the Coin City team.
+  </p>
+<form class="contact-form"
+      action="#"
+      method="post"
+      onsubmit="showThanks(event)">
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" name="subject" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="6" required></textarea>
+
+  <input type="submit" value="Send Message">
+
+</form>
+
+<p class="form-note">
+  Thanks for sharing! We appreciate your feedback and carefully consider every suggestion.
+</p>
+<p class="contact-email">
+  Prefer to contact us directly?
+  <a href="mailto:coincitywebsite@gmail.com">
+    coincitywebsite@gmail.com
+  </a>
+</p>
+<p id="thanks-message" style="display:none;">
+    Thank you for contacting Coin City! We appreciate your feedback.
+</p>
+</section>
+  </main>
+
+<footer>
+
+  <div class="footer-left">
+    <h3>The City is Calling.</h3>
+    <p>Whether you're here to hunt for deals or just soak in the live action, Coin City has a spot for you. Click the links to catch us live, discover exclusive products, and win big!</p>
+  </div>
+
+  <div class="footer-live-links">
+    <a class="watch-button whatnot-button" href="https://www.whatnot.com/user/coincity?sender_id=5506198&sharing_channel=sms" target="_blank">Watch on Whatnot</a>
+    <a class="watch-button tiktok-button" href="https://www.tiktok.com/@coincitycoins" target="_blank">Watch on TikTok</a>
+  </div>
+
+  <div class="footer-right">
+    <h3>Follow Us</h3>
+
+    <div class="social-icons">
+      <a href="https://www.tiktok.com/@coincitycoins" target="_blank">
+        <img src="tiktok.png" alt="TikTok">
+      </a>
+
+      <a href="https://www.whatnot.com/user/coincity?sender_id=5506198&sharing_channel=sms" target="_blank">
+        <img src="whatnot.png" alt="Whatnot">
+      </a>
+
+      <a href="https://www.instagram.com/coincity1?igsh=MTN3eWVmMmRxY3hnbg%3D%3D&utm_source=qr" target="_blank">
+        <img src="instagram.jpg" alt="Instagram">
+      </a>
+
+      <a href="https://www.facebook.com/CoinCity10" target="_blank">
+        <img src="facebook.png" alt="Facebook">
+      </a>
+    </div>
+
+    <p class="copyright">&copy; 2026 Coin City</p>
+  </div>
+
+</footer>
+
+</div>
+<script>
+function showThanks(event) {
+    event.preventDefault();
+
+    document.getElementById("thanks-message").style.display = "block";
+
+    document.querySelector(".contact-form").reset();
+}
+</script>
+</body>
+</html>

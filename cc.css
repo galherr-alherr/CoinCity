@@ -818,7 +818,7 @@ footer {
   align-self: end;
 }
 .footer-live-links .watch-button {
-  width: 200px;
+  width: 240px;
   text-align: center;
   margin: 0;
 }
@@ -1199,4 +1199,14 @@ nav a {
     font-size: 3em;
     text-transform: uppercase;
     margin-bottom: 0.3em;
+}
+.thanks-message {
+  display: none;
+  margin-top: 1.5em;
+  padding: 1em;
+  background-color: var(--accent);
+  color: #000000;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
 }
