@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Contact the Coin City team with questions, feedback, product requests, or livestream ideas through our community contact page.">
+  <title>Coin City | Contact Us</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <meta name="theme-color" content="#000000">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Coin City">
+  <meta property="og:title" content="Coin City | Contact Us">
+  <meta property="og:description" content="Contact the Coin City team with questions, feedback, product requests, or livestream ideas through our community contact page.">
+  <meta property="og:image" content="og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coin City | Contact Us">
+  <meta name="twitter:description" content="Contact the Coin City team with questions, feedback, product requests, or livestream ideas through our community contact page.">
+  <meta name="twitter:image" content="og-image.png">
+  <link rel="stylesheet" href="cc.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJTX67X2N4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XJTX67X2N4');
+  </script>
+</head>
+<body id="contact">
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div id="wrapper">
+<header class="site-header">
+  <div class="header-logo-col">
+    <a href="index.html" class="logo-link">
+      <img src="logo.png" alt="Coin City logo" class="logo" width="130" height="130" fetchpriority="high">
+    </a>
+  </div>
+  <div class="header-brand">
+    <div class="header-title-group">
+      <h1><a href="index.html">Coin City</a></h1>
+      <p class="header-tagline">Coins, Collectibles &amp; Community</p>
+    </div>
+  </div>
+
+  <div class="header-actions">
+    <p class="header-cta-label">Watch Live</p>
+    <div class="header-live-row">
+      <div class="animation">
+        <img src="livestream.gif" alt="" width="70" height="70" aria-hidden="true">
+      </div>
+      <div class="header-buttons">
+    <a class="watch-button whatnot-button"
+       href="https://www.whatnot.com/user/coincity"
+       target="_blank"
+       rel="noopener noreferrer">
+      Watch on Whatnot
+    </a>
+    <a class="watch-button tiktok-button"
+       href="https://www.tiktok.com/@coincitycoins"
+       target="_blank"
+       rel="noopener noreferrer">
+      Watch on TikTok
+    </a>
+    </div>
+    </div>
+  </div>
+</header>
+
+<nav aria-label="Main Navigation">
+  <a href="index.html">Coin City</a>
+  <a href="merchandise.html">Merchandise</a>
+  <a href="coins.html">Coins &amp; Collectibles</a>
+  <a href="live.html">Live!</a>
+  <a href="crew.html">Meet the Crew</a>
+  <a href="contact.html" aria-current="page">Get in Touch</a>
+</nav>
+
+<main id="main-content">
+  <section class="contact-section reveal">
+    <h2>We'd Love to Hear From You!</h2>
+    <p class="contact-tagline">Tell us what is on your mind!</p>
+    <p class="contact-intro">
+      Share your product requests, live show ideas, questions, or feedback with the Coin City team.
+    </p>
+
+    <form class="contact-form" id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" autocomplete="name" required data-fs-field>
+      <span class="field-error" data-fs-error="name"></span>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" autocomplete="email" required data-fs-field>
+      <span class="field-error" data-fs-error="email"></span>
+
+      <label for="message-type">How can we help?</label>
+      <select id="message-type" name="messageType" required data-fs-field>
+        <option value="">Select one</option>
+        <option value="Product Request">Product Request</option>
+        <option value="Order Question">Order Question</option>
+        <option value="Livestream Suggestion">Livestream Suggestion</option>
+        <option value="Website Feedback">Website Feedback</option>
+        <option value="General Question">General Question</option>
+        <option value="Other">Other</option>
+      </select>
+      <span class="field-error" data-fs-error="messageType"></span>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required data-fs-field>
+      <span class="field-error" data-fs-error="subject"></span>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="7" required data-fs-field></textarea>
+      <span class="field-error" data-fs-error="message"></span>
+
+      <label for="referral">How did you hear about Coin City?</label>
+      <select id="referral" name="referralSource">
+        <option value="">Optional</option>
+        <option value="TikTok">TikTok</option>
+        <option value="Whatnot">Whatnot</option>
+        <option value="Instagram">Instagram</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Friend or Family">Friend or Family</option>
+        <option value="Search Engine">Search Engine</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <div class="honeypot-field" aria-hidden="true">
+        <label for="company-website">Leave this field blank</label>
+        <input type="text" id="company-website" name="_gotcha" tabindex="-1" autocomplete="off">
+      </div>
+
+      <button type="submit" class="form-submit" data-fs-submit-btn>Send Message</button>
+    </form>
+
+    <div class="form-status success-message" data-fs-success role="status" aria-live="polite">
+      Thank you for contacting Coin City! Your message was sent successfully.
+    </div>
+    <div class="form-status error-message" data-fs-error role="alert" aria-live="assertive">
+      We could not send your message. Please check your information and try again.
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-logo-col">
+      <a href="index.html" class="footer-logo-link">
+        <img src="logo.png" alt="Coin City logo" class="footer-logo" width="165" height="165" decoding="async">
+      </a>
+    </div>
+    <div class="footer-about">
+      <h3>The City is Calling.</h3>
+      <p>Whether you're here to hunt for deals or simply soak in the live action, Coin City has a spot for you. Catch us live for rare coins, collectibles, giveaways, and a community that celebrates the hobby together.</p>
+    </div>
+    <div class="footer-live-col">
+      <h3>Watch Live</h3>
+      <div class="footer-live-links">
+        <a class="watch-button whatnot-button" href="https://www.whatnot.com/user/coincity" target="_blank" rel="noopener noreferrer">Watch on Whatnot</a>
+        <a class="watch-button tiktok-button" href="https://www.tiktok.com/@coincitycoins" target="_blank" rel="noopener noreferrer">Watch on TikTok</a>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://www.tiktok.com/@coincitycoins" target="_blank" rel="noopener noreferrer" aria-label="Coin City on TikTok">
+          <img src="tiktok.png" alt="" width="58" height="58" decoding="async">
+        </a>
+        <a href="https://www.whatnot.com/user/coincity" target="_blank" rel="noopener noreferrer" aria-label="Coin City on Whatnot">
+          <img src="whatnot.png" alt="" width="58" height="58" decoding="async">
+        </a>
+        <a href="https://www.instagram.com/coincity1" target="_blank" rel="noopener noreferrer" aria-label="Coin City on Instagram">
+          <img src="instagram.jpg" alt="" width="58" height="58" decoding="async">
+        </a>
+        <a href="https://www.facebook.com/CoinCity10" target="_blank" rel="noopener noreferrer" aria-label="Coin City on Facebook">
+          <img src="facebook.png" alt="" width="58" height="58" decoding="async">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="copyright">&copy; 2026 Coin City</p>
+  </div>
+</footer>
+</div>
+
+<script>
+  window.formspree = window.formspree || function () {
+    (formspree.q = formspree.q || []).push(arguments);
+  };
+  formspree("initForm", {
+    formElement: "#contact-form",
+    formId: "mqevdjan"
+  });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+<script src="cc.js" defer></script>
+</body>
+</html>
